@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorilas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" >
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">HOME</a></li>
+                 <li><a href="about.html">ABOUT</a></li>
+                 <li><a href="course.html">COURSE</a></li>
+                 <li><a href="blog.html">BLOG</a></li>
+                 <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs for 2021</h1>
+
+</section>
+
+
+<!-------- blog page content-->
+
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg" >
+            <h2>Our Certificate & Online Programs for 2021</h2>
+            <p>
+            Et malesuada fames ac turpis egestas sed tempus urna et. Proin 
+            fermentum leo vel orci porta non pulvinar. Felis bibendum ut 
+            tristique et. Sit amet nulla facilisi morbi tempus iaculis urna. Tincidunt 
+            augue interdum velit euismod in pellentesque.</p>
+            <br>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+            empor incididunt ut labore et dolore magna aliqua. Eget felis eget nunc 
+            lobortis. Ut lectus arcu bibendum at varius. Eget gravida cum sociis natoque 
+            penatibus et magnis dis. Congue quisque egestas diam in arcu cursus euismod 
+            quis. Eros donec ac odio tempor orci dapibus ultrices in. Diam sit amet 
+             nisl suscipit adipiscing bibendum est ultricies. Feugiat nibh sed pulvinar 
+            proin gravida hendrerit lectus. Porta lorem mollis aliquam ut porttitor leo 
+            a diam sollicitudin. Praesent elementum facilisis leo vel fringilla est ullamcorper. Odio 
+             ut sem nulla pharetra diam sit amet nisl. Ac turpis egestas maecenas pharetra convallis 
+            posuere morbi. Vulputate dignissim suspendisse in est.</p>
+            <br>
+            <p>Donec et odio pellentesque diam volutpat. Diam donec adipiscing 
+            tristique risus nec feugiat in fermentum posuere. Amet mattis 
+            vulputate enim nulla aliquet porttitor lacus. Fusce ut placerat orci 
+            nulla pellentesque dignissim enim. Quis blandit turpis cursus in hac 
+            habitasse platea dictumst quisque. Enim ut sem viverra aliquet eget 
+            sit amet. Et malesuada fames ac turpis egestas sed tempus urna et. Proin 
+            fermentum leo vel orci porta non pulvinar. Felis bibendum ut tristique et. Sit 
+            amet nulla facilisi morbi tempus iaculis urna. Tincidunt augue interdum velit 
+            euismod in pellentesque.</p>
+            <br>
+            <p>Auctor urna nunc id cursus metus aliquam eleifend mi. Ipsum dolor sit amet 
+                consectetur. In arcu cursus euismod quis viverra. Euismod nisi porta lorem 
+                mollis aliquam ut porttitor leo. Et netus et malesuada fames ac. Porttitor 
+                lacus luctus accumsan tortor posuere ac ut.
+
+            </p>
+            <div class="comment-box">
+
+                  <h3>Leave a comment</h3>
+
+                  <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                  </form>
+
+            </div>
+
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine LEarning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---- Footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Porttitor leo a diam sollicitudin tempor id eu nisl nunc. Eu 
+        sem integer vitae justo eget<br> magna. Nibh sed pulvinar proin gravida 
+        hendrerit. Amet facilisis magna etiam tempor orci eu. </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o">by Nazarii</i></p>
+</section>
+
+<!------------------JavaScript for Toggle Menu------------------------------------>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+
+</html>
